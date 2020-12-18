@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Flickr API URL : https://www.flickr.com/services/api/
+
+Here fetch and axios calls used to get data from API.
+
+This app was mobile response also
+
+This App deployed in NETLIFY : https://imagegallery-app.netlify.app/
