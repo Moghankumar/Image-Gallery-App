@@ -1,7 +1,47 @@
 .App {
   text-align: center;
 }
-
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: black;
+  border-color: black;
+  color: white; */
+}
+#header img{
+  width: 15%;
+}
+#footerlogo{
+  width: 15%;
+}
+#footer{
+  text-align: center;
+}
+@media only screen and (max-width:800px){
+  #header img{
+    width: 45%;
+  }
+  #footerlogo{
+    width: 45%;
+  }
+}
+.btnresult{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-color: red !important;
+}
+#btns{
+    justify-content: space-around;
+}
+#btns:hover{
+    border-style: dashed;
+    border-color: black;
+}
+#content{
+    text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +75,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+#mountaincontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#beachcontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#birdscontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#foodscontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#searchcontent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+#buttoncontent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
